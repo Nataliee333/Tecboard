@@ -4,12 +4,18 @@
     font-family: "unbounded";
     src: url(../techboard/fonts/Unbounded-Bold.ttf) 
     format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 
 }
 @font-face {
     font-family: "poppins";
     src: url(../techboard/fonts/Poppins-Regular.ttf) 
     format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 /*Reset*/
@@ -20,7 +26,8 @@
 
 /*Início desktop*/
 body{
-    background-color: #ffffff;
+    background-color: #0e1014;
+    color: #ffffff;
 
 
 }
@@ -35,8 +42,6 @@ header img{
 h1{
     font-size: 64px;
     font-family: "unbounded", sans-serif;
-    color: #0e1014;
-    font-weight: 700;
     text-align: center;
     margin-top: 60px;
 }
@@ -47,7 +52,7 @@ h1 span{
 
 p{
     font-size: 24px;
-    font-family: "poppins";
+    font-family: "poppins", sans-serif;
     color: #0e1014;
     font-weight: 400;
     text-align: center;
